@@ -1,0 +1,21 @@
+name: TCMB oranlarini guncelle
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  guncelle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 oranlar.py
+        env:
+          EVDS_KEY: ${{ secrets.EVDS_KEY }}
+      - run: |
+          git config user.name "oran-botu"
+          git config user.email "oran-botu@users.noreply.github.com"
+          git add oranlar.json
+          git diff --cached --quiet || git commit -m "Oranlar $(date +%F)"
+          git push
