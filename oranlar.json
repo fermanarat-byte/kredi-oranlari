@@ -1,0 +1,10 @@
+{
+  "kaynak": "TCMB EVDS - Bankalarca açılan kredilere uygulanan ağırlıklı ortalama faiz (yıllık, basit)",
+  "hafta": "13-11-2026",
+  "guncelleme": "2026-11-22",
+  "yillik": {
+    "ihtiyac": 60.01,
+    "tasit": 41.77,
+    "konut": 41.35
+  }
+}
