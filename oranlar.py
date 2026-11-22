@@ -60,12 +60,15 @@ for k in reversed(cek(list(MEV.values()), 70, 1)):
             mev_hafta = mev_hafta or k.get("Tarih")
 
 # TÜFE: aylık endeks -> yıllık %
-tufe = [(k.get("Tarih"), sayi(k.get("TP_FG_J0"))) for k in cek(["TP.FG.J0"], 460, 5)]
-tufe = [t for t in tufe if t[1]]
 tufe_yillik, tufe_ay = None, None
-if len(tufe) >= 13:
-    tufe_yillik = round((tufe[-1][1] / tufe[-13][1] - 1) * 100, 2)
-    tufe_ay = tufe[-1][0]
+for kod in ["TP.TUKFIY2025.GENEL", "TP.FG.J0"]:
+    tufe = [(k.get("Tarih"), sayi(k.get(kod.replace(".", "_")))) for k in cek([kod], 460, 5)]
+    tufe = [t for t in tufe if t[1]]
+    if len(tufe) >= 13:
+        tufe_yillik = round((tufe[-1][1] / tufe[-13][1] - 1) * 100, 2)
+        tufe_ay = tufe[-1][0]
+        break
+    print("UYARI: %s yetersiz veri (%d ay)" % (kod, len(tufe)))
 
 veri = {
     "kaynak": "TCMB EVDS - ağırlıklı ortalama faizler (yıllık, basit) ve TÜFE",
