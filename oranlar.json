@@ -1,10 +1,178 @@
 {
-  "kaynak": "TCMB EVDS - Bankalarca açılan kredilere uygulanan ağırlıklı ortalama faiz (yıllık, basit)",
+  "kaynak": "TCMB EVDS - ağırlıklı ortalama faizler (yıllık, basit) ve TÜFE",
   "hafta": "13-11-2026",
   "guncelleme": "2026-11-22",
   "yillik": {
     "ihtiyac": 60.01,
     "tasit": 41.77,
     "konut": 41.35
-  }
+  },
+  "gecmis": [
+    {
+      "ihtiyac": 61.83,
+      "tasit": 33.74,
+      "konut": 38.8,
+      "hafta": "22-05-2026"
+    },
+    {
+      "ihtiyac": 63.61,
+      "tasit": 35.23,
+      "konut": 38.9,
+      "hafta": "29-05-2026"
+    },
+    {
+      "ihtiyac": 64.13,
+      "tasit": 45.87,
+      "konut": 39.33,
+      "hafta": "05-06-2026"
+    },
+    {
+      "ihtiyac": 63.94,
+      "tasit": 49.16,
+      "konut": 39.72,
+      "hafta": "12-06-2026"
+    },
+    {
+      "ihtiyac": 63.8,
+      "tasit": 49.38,
+      "konut": 40.73,
+      "hafta": "19-06-2026"
+    },
+    {
+      "ihtiyac": 62.85,
+      "tasit": 51.85,
+      "konut": 41.56,
+      "hafta": "26-06-2026"
+    },
+    {
+      "ihtiyac": 63.35,
+      "tasit": 49.7,
+      "konut": 41.45,
+      "hafta": "03-07-2026"
+    },
+    {
+      "ihtiyac": 64.29,
+      "tasit": 46.17,
+      "konut": 41.4,
+      "hafta": "10-07-2026"
+    },
+    {
+      "ihtiyac": 64.98,
+      "tasit": 47.26,
+      "konut": 41.23,
+      "hafta": "17-07-2026"
+    },
+    {
+      "ihtiyac": 65.16,
+      "tasit": 43.7,
+      "konut": 41.39,
+      "hafta": "24-07-2026"
+    },
+    {
+      "ihtiyac": 64.93,
+      "tasit": 45.94,
+      "konut": 41.84,
+      "hafta": "31-07-2026"
+    },
+    {
+      "ihtiyac": 65.45,
+      "tasit": 48.68,
+      "konut": 42.0,
+      "hafta": "07-08-2026"
+    },
+    {
+      "ihtiyac": 65.46,
+      "tasit": 47.3,
+      "konut": 42.03,
+      "hafta": "14-08-2026"
+    },
+    {
+      "ihtiyac": 64.2,
+      "tasit": 48.18,
+      "konut": 42.04,
+      "hafta": "21-08-2026"
+    },
+    {
+      "ihtiyac": 60.64,
+      "tasit": 47.99,
+      "konut": 41.89,
+      "hafta": "28-08-2026"
+    },
+    {
+      "ihtiyac": 62.95,
+      "tasit": 37.55,
+      "konut": 41.94,
+      "hafta": "04-09-2026"
+    },
+    {
+      "ihtiyac": 64.14,
+      "tasit": 40.53,
+      "konut": 41.93,
+      "hafta": "11-09-2026"
+    },
+    {
+      "ihtiyac": 63.03,
+      "tasit": 45.54,
+      "konut": 41.96,
+      "hafta": "18-09-2026"
+    },
+    {
+      "ihtiyac": 62.73,
+      "tasit": 47.71,
+      "konut": 41.82,
+      "hafta": "25-09-2026"
+    },
+    {
+      "ihtiyac": 62.03,
+      "tasit": 45.05,
+      "konut": 41.87,
+      "hafta": "02-10-2026"
+    },
+    {
+      "ihtiyac": 62.21,
+      "tasit": 39.77,
+      "konut": 41.66,
+      "hafta": "09-10-2026"
+    },
+    {
+      "ihtiyac": 61.5,
+      "tasit": 43.63,
+      "konut": 41.5,
+      "hafta": "16-10-2026"
+    },
+    {
+      "ihtiyac": 60.21,
+      "tasit": 44.2,
+      "konut": 41.49,
+      "hafta": "23-10-2026"
+    },
+    {
+      "ihtiyac": 58.68,
+      "tasit": 44.68,
+      "konut": 41.49,
+      "hafta": "30-10-2026"
+    },
+    {
+      "ihtiyac": 59.2,
+      "tasit": 39.16,
+      "konut": 41.33,
+      "hafta": "06-11-2026"
+    },
+    {
+      "ihtiyac": 60.01,
+      "tasit": 41.77,
+      "konut": 41.35,
+      "hafta": "13-11-2026"
+    }
+  ],
+  "mevduat": {
+    "1ay": 41.59,
+    "3ay": 41.97,
+    "6ay": 40.19,
+    "1yil": 39.51,
+    "1yil_ustu": 37.16
+  },
+  "mevduat_hafta": "13-11-2026",
+  "tufe_yillik": null,
+  "tufe_ay": null
 }
