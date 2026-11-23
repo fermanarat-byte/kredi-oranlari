@@ -1,7 +1,7 @@
 {
   "kaynak": "TCMB EVDS - ağırlıklı ortalama faizler (yıllık, basit) ve TÜFE",
   "hafta": "13-11-2026",
-  "guncelleme": "2026-11-22",
+  "guncelleme": "2026-11-23",
   "yillik": {
     "ihtiyac": 60.01,
     "tasit": 41.77,
@@ -173,6 +173,6 @@
     "1yil_ustu": 37.16
   },
   "mevduat_hafta": "13-11-2026",
-  "tufe_yillik": null,
-  "tufe_ay": null
+  "tufe_yillik": 29.77,
+  "tufe_ay": "2026-10"
 }
