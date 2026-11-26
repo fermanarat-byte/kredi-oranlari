@@ -1,19 +1,13 @@
 {
   "kaynak": "TCMB EVDS - ağırlıklı ortalama faizler (yıllık, basit) ve TÜFE",
-  "hafta": "13-11-2026",
-  "guncelleme": "2026-11-25",
+  "hafta": "20-11-2026",
+  "guncelleme": "2026-11-26",
   "yillik": {
-    "ihtiyac": 60.01,
-    "tasit": 41.77,
-    "konut": 41.35
+    "ihtiyac": 59.26,
+    "tasit": 42.03,
+    "konut": 41.4
   },
   "gecmis": [
-    {
-      "ihtiyac": 61.83,
-      "tasit": 33.74,
-      "konut": 38.8,
-      "hafta": "22-05-2026"
-    },
     {
       "ihtiyac": 63.61,
       "tasit": 35.23,
@@ -163,16 +157,22 @@
       "tasit": 41.77,
       "konut": 41.35,
       "hafta": "13-11-2026"
+    },
+    {
+      "ihtiyac": 59.26,
+      "tasit": 42.03,
+      "konut": 41.4,
+      "hafta": "20-11-2026"
     }
   ],
   "mevduat": {
-    "1ay": 41.59,
-    "3ay": 41.97,
-    "6ay": 40.19,
-    "1yil": 39.51,
-    "1yil_ustu": 37.16
+    "1ay": 41.45,
+    "3ay": 42.05,
+    "6ay": 41.11,
+    "1yil": 40.59,
+    "1yil_ustu": 37.81
   },
-  "mevduat_hafta": "13-11-2026",
+  "mevduat_hafta": "20-11-2026",
   "tufe_yillik": 29.77,
   "tufe_ay": "2026-10"
 }
